@@ -1,0 +1,79 @@
+html, body, figure, figcaption, ul, li, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    text-align: inherit;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
+ul {
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    border-bottom: 10px solid black;
+}
+
+ul:hover {
+    border-color: blue;
+    cursor: pointer;
+}
+
+.clicked {
+    border-color:red;
+    
+}
+
+.clicked:hover {
+    border-color: red;
+}
+
+.hanoi {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+    height: 50px;
+    border-radius: 30px;
+    background: gray;
+    width: 0px;
+    
+}
+
+
+
+.disk-1 {
+    width: 50px;
+}
+
+.disk-2 {
+    width: 95px;
+}
+
+.disk-3 {
+    width: 140px;
+}
+
+.winner {
+    background: darkgreen;
+}
