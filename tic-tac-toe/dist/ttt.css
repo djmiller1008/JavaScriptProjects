@@ -1,0 +1,67 @@
+html, body, figure, figcaption, ul, li, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    text-align: inherit;
+}
+
+
+ul {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 30px auto;
+    border: 5px solid black;
+}
+
+li {
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    border: 5px solid black;
+    background-color: gray;
+    
+}
+
+li:hover {
+    background-color: yellow;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.x,
+.o {
+  background: white;
+  cursor: default;
+}
+
+.x:hover,
+.o:hover {
+  background: white;
+}
+
+.x:after,
+.o:after {
+  display: block;
+  width: 100%;
+  font-size: 60px;
+  line-height: 80px;
+}
+
+.x:after {
+  content: "x";
+}
+
+.o:after {
+  content: "o";
+}
